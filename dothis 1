@@ -1,0 +1,38 @@
+#include <iostream>
+#include <ctime>
+#include <wchar.h>
+#include <Windows.h>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <string.h>
+#include <stdlib.h>
+#include <cstring>
+#include <conio.h>
+#include <iomanip>
+#include <process.h>
+#include <ctime>
+#include <cstdlib>
+
+
+
+using namespace std;
+class what {
+private:
+    int alpha;
+public:
+    void tester() {
+        alpha = 11;
+        cout << this->alpha;
+    }
+};
+
+
+int main()
+{
+    what w;
+    w.tester();
+    cout << endl;
+
+    return 0;
+}
